@@ -1,0 +1,17 @@
+[project]
+name = "enterprise-it-support-agentic-rag-copilot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sumran Harchirkar", email = "sumranharchirkar58@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+enterprise-it-support-agentic-rag-copilot = "enterprise_it_support_agentic_rag_copilot:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
