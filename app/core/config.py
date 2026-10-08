@@ -24,7 +24,7 @@ class Settings(BaseSettings):
 
 
 
-
+#lru stands for least recently used and it stores/caches the result of the function so that when we call the function with the same argumrnt again it diesnt calculates it again but the stored one it returns back so that it becomes easy for expensive and recursive tasks 
 @lru_cache
 def get_settings() -> Settings:
     return Settings()
